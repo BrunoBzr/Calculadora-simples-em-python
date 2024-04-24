@@ -50,10 +50,14 @@ while True:
         print('---------- DIVISÃO ----------\n')
         numero1 = float(input('Informe o primeiro valor: '))
         numero2 = float(input('Informe o segundo valor: '))
+        if numero2 == 0:
+            print('Impossivel dividir por zero!\n')
+            os.system('pause')
+        else:
+            resultado = funcoes.dividir(numero1, numero2)
 
-        resultado = funcoes.dividir(numero1, numero2)
-
-        print(f'\nA divisão de {numero1} / {numero2} é igual a {resultado}\n')
-        os.system('pause')
+            print(f'\nA divisão de {numero1} / {numero2} é igual a {resultado}\n')
+            os.system('pause')
     else:
-        print('Opção invalida!')
+        print('Opção invalida!\n')
+        os.system('pause')
