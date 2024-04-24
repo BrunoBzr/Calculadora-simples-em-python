@@ -1,2 +1,2 @@
 # Calculadora-simples-em-python
- Um calculdora que realizar as quartos operações básicas da matemática.
+ Uma calculdora que realiza as quartos operações básicas da matemática.
