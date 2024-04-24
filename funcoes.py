@@ -10,6 +10,6 @@ def multiplicar(n1, n2):
     multicaocao = n1 * n2
     return multicaocao
 
-def somar(n1, n2):
+def dividir(n1, n2):
     divisao = n1 / n2
     return divisao
